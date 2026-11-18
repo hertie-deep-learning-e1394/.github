@@ -15,14 +15,13 @@
       "C1": "done",
       "C2": "done",
       "C3": "done",
-      "C4": "todo",
+      "C4": "done",
       "C5": "todo",
-      "C6": "blocked"
+      "C6": "todo"
     },
     "stage_why": {
-      "C4": "There is no materials repo yet.",
       "C5": "There is no assignment template yet.",
-      "C6": "Waiting for the course's materials to be ready."
+      "C6": "The public website is off; it is optional."
     },
     "stage_need": {
       "C1": "needed",
@@ -44,7 +43,7 @@
       "state": "ready",
       "problems": 0,
       "missing": null,
-      "suggestions": 4
+      "suggestions": 5
     },
     "defaults": {
       "timezone": {
@@ -93,7 +92,28 @@
         "source": "institution"
       }
     },
-    "materials": [],
+    "materials": [
+      {
+        "repo": "course-materials-f2026",
+        "state": "ready",
+        "checks": [
+          {
+            "id": "syllabus",
+            "label": "Syllabus",
+            "done": false,
+            "why": "SYLLABUS.md is still the placeholder, and the weekly plan (written from the schedule) is not in it yet.",
+            "need": "suggested"
+          },
+          {
+            "id": "withheld",
+            "label": "Withheld patterns reviewed",
+            "done": false,
+            "why": "Check that what is withheld from students is right.",
+            "need": "suggested"
+          }
+        ]
+      }
+    ],
     "templates": [],
     "semesters": [
       "hertie-deep-learning-f2026"
@@ -106,6 +126,28 @@
         "repo": ".github",
         "text": "Course details have no description yet.",
         "screen": "details",
+        "need": "suggested",
+        "set_aside": false
+      },
+      {
+        "id": "materials:course-materials-f2026:syllabus",
+        "kind": "materials",
+        "check": "syllabus",
+        "repo": "course-materials-f2026",
+        "text": "SYLLABUS.md is still the placeholder, and the weekly plan (written from the schedule) is not in it yet.",
+        "screen": "materials",
+        "entry": "course-materials-f2026",
+        "need": "suggested",
+        "set_aside": false
+      },
+      {
+        "id": "materials:course-materials-f2026:withheld",
+        "kind": "materials",
+        "check": "withheld",
+        "repo": "course-materials-f2026",
+        "text": "Check that what is withheld from students is right.",
+        "screen": "materials",
+        "entry": "course-materials-f2026",
         "need": "suggested",
         "set_aside": false
       }
