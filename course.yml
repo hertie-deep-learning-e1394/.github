@@ -5,7 +5,7 @@
 course:
   name: Deep Learning
   code: E1394
-  description: "A condensed, two-day introduction to Deep Learning for Master of Data Science students about to start their theses. Day 1 builds the foundations (what makes Deep Learning different, the training loop and backpropagation, making training work, convolutions and vision). Day 2 goes from sequences to attention and transformers, to pretrained models and LLMs in practice."
+  description: "A condensed, two-day introduction to Deep Learning."
   toolkit_version_ref: release   # set by `--central-ref` at bootstrap
   # licence: CC BY-NC-SA 4.0       # one of the institution's licences; absent = the first
 
