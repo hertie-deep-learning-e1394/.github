@@ -1,0 +1,115 @@
+{
+  "schema": "dsl.status/1",
+  "inputs": {
+    "course.yml": "ab627923d8026167b036e037a02cbe75f5483fcf",
+    "semesters.yml": "3039c5791b678baf41821447986d725650e726d0"
+  },
+  "horizon": {
+    "days": 7
+  },
+  "course": {
+    "org": "hertie-deep-learning-e1394",
+    "name": "Deep Learning",
+    "code": "E1394",
+    "stages": {
+      "C1": "done",
+      "C2": "done",
+      "C3": "done",
+      "C4": "todo",
+      "C5": "todo",
+      "C6": "blocked"
+    },
+    "stage_why": {
+      "C4": "There is no materials repo yet.",
+      "C5": "There is no assignment template yet.",
+      "C6": "Waiting for the course's materials to be ready."
+    },
+    "stage_need": {
+      "C1": "needed",
+      "C2": "needed",
+      "C3": "needed",
+      "C4": "suggested",
+      "C5": "suggested",
+      "C6": "suggested"
+    },
+    "stage_set_aside": {
+      "C1": false,
+      "C2": false,
+      "C3": false,
+      "C4": false,
+      "C5": false,
+      "C6": false
+    },
+    "verdict": {
+      "state": "ready",
+      "problems": 0,
+      "missing": null,
+      "suggestions": 4
+    },
+    "defaults": {
+      "timezone": {
+        "value": "Europe/Berlin",
+        "source": "institution"
+      },
+      "late_window_days": {
+        "value": 10,
+        "source": "institution"
+      },
+      "late_penalty_per_day": {
+        "value": "10%",
+        "source": "institution"
+      },
+      "max_team_size": {
+        "value": 5,
+        "source": "institution"
+      },
+      "assignment_repo_visibility": {
+        "value": "private",
+        "source": "institution"
+      },
+      "archive_grace_days": {
+        "value": 60,
+        "source": "institution"
+      },
+      "materials_repo": {
+        "value": "materials",
+        "source": "institution"
+      },
+      "release_destinations": {
+        "value": [],
+        "source": "institution",
+        "items": []
+      },
+      "autosync_released_edits": {
+        "value": false,
+        "source": "institution"
+      },
+      "marks_per_question": {
+        "value": true,
+        "source": "institution"
+      },
+      "team_formation": {
+        "value": "none",
+        "source": "institution"
+      }
+    },
+    "materials": [],
+    "templates": [],
+    "semesters": [
+      "hertie-deep-learning-f2026"
+    ],
+    "todo": [
+      {
+        "id": "course:description",
+        "kind": "course",
+        "check": "description",
+        "repo": ".github",
+        "text": "Course details have no description yet.",
+        "screen": "details",
+        "need": "suggested",
+        "set_aside": false
+      }
+    ]
+  },
+  "problems": []
+}
