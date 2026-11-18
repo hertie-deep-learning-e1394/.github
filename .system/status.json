@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "course.yml": "ab627923d8026167b036e037a02cbe75f5483fcf",
+    "course.yml": "890e653c8fc6395ddd69182afa8c528b7b353135",
     "semesters.yml": "3039c5791b678baf41821447986d725650e726d0"
   },
   "horizon": {
@@ -43,7 +43,7 @@
       "state": "ready",
       "problems": 0,
       "missing": null,
-      "suggestions": 4
+      "suggestions": 3
     },
     "defaults": {
       "timezone": {
@@ -119,16 +119,6 @@
       "hertie-deep-learning-f2026"
     ],
     "todo": [
-      {
-        "id": "course:description",
-        "kind": "course",
-        "check": "description",
-        "repo": ".github",
-        "text": "Course details have no description yet.",
-        "screen": "details",
-        "need": "suggested",
-        "set_aside": false
-      },
       {
         "id": "materials:course-materials-f2026:syllabus",
         "kind": "materials",
