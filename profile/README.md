@@ -27,7 +27,7 @@ List of all repositories associated with the course org. _Auto-discovered from t
 
 | Repo | Visibility | Description |
 | --- | --- | --- |
-| _(no repos yet)_ | | |
+| [course-materials-f2026](https://github.com/hertie-deep-learning-e1394/course-materials-f2026) | private | Course materials (lectures/labs/readings/datasets/other) by session |
 
 Edit & stage new course-related content in these, then release it to the relevant semester org.
 
