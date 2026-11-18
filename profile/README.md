@@ -19,7 +19,7 @@ The substantive repos of this org are private (not accessible to enrolled studen
 List of semester orgs registered to receive releases from this course org. _Auto-discovered from the
 `semesters.yml` registry_:
 
-_(none registered yet - set one up with New semester in the Console)_
+- hertie-deep-learning-f2026 _(being set up)_
 
 ## Repositories
 
