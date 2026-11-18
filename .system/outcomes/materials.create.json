@@ -1,0 +1,20 @@
+{
+  "actor": "henrycgbaker",
+  "block": "",
+  "conclusion": "done",
+  "counts": {},
+  "details": [],
+  "finished": "2026-11-18T12:34:27Z",
+  "op": "materials.create",
+  "preview": false,
+  "reasons": [
+    {
+      "code": "REFRESH_FAILED",
+      "text": "Done, but the buttons were not all refreshed; the nightly refresh adds them."
+    }
+  ],
+  "run_id": null,
+  "schema": "dsl.outcome/1",
+  "started": "2026-11-18T12:33:14Z",
+  "summary": "Materials repo created."
+}
