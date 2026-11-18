@@ -17,8 +17,9 @@ on:
         description: "Semester org (submissions)"
         required: true
         type: choice
+        default: "hertie-deep-learning-f2026"
         options:
-          - (none-yet)
+          - hertie-deep-learning-f2026
       course_source_repo:
         description: "Course-org repo to hand out from (e.g. assignment-linear-regression)"
         required: true
