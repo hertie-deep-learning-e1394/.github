@@ -43,7 +43,7 @@
       "state": "ready",
       "problems": 0,
       "missing": null,
-      "suggestions": 5
+      "suggestions": 4
     },
     "defaults": {
       "timezone": {
@@ -107,8 +107,8 @@
           {
             "id": "withheld",
             "label": "Withheld patterns reviewed",
-            "done": false,
-            "why": "Check that what is withheld from students is right.",
+            "done": true,
+            "why": null,
             "need": "suggested"
           }
         ]
@@ -135,17 +135,6 @@
         "check": "syllabus",
         "repo": "course-materials-f2026",
         "text": "SYLLABUS.md is still the placeholder, and the weekly plan (written from the schedule) is not in it yet.",
-        "screen": "materials",
-        "entry": "course-materials-f2026",
-        "need": "suggested",
-        "set_aside": false
-      },
-      {
-        "id": "materials:course-materials-f2026:withheld",
-        "kind": "materials",
-        "check": "withheld",
-        "repo": "course-materials-f2026",
-        "text": "Check that what is withheld from students is right.",
         "screen": "materials",
         "entry": "course-materials-f2026",
         "need": "suggested",
